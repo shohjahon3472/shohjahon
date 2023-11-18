@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d0{
+    position: relative;
+    width: 100%;
+    height: 5000px;
+    border: solid 3px red;
+}
+.d1{
+    top: 0;
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 80px;
+        opacity: 90%;
+        z-index: 1;
+       }
+.d2{
+    position: relative;
+    border: solid 3px blue;
+    width: 100%;
+    height: 700px;
+    background-color: black;
+    background-repeat: no-repeat;
+filter:brightness(150%) ;
+}
+.d3{
+    position: relative;
+    border: solid 3px rgb(13, 231, 67);
+    width: 100%;
+    height: 700px;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/297/22/531/lake-blue-moonlight-moon-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}  
+ .d01{
+    position: absolute;
+    background-color: rgb(0, 115, 255);
+    width: 10px ;
+    height: 60px;
+    left: 20px;
+   top: 10px;
+ }
+ .s1{position: relative;
+    border: solid 186px rgb(25, 84, 135);
+    width: 550px;
+    height: 370px;
+overflow: hidden;
+    border-right-color: rgb(204, 10, 49);
+    border-radius: 5%;
+    border-left-color: rgb(90, 255, 2);
+    border-top-color:rgb(0, 251, 171);
+    left: 690px;
+    top: 120px;
+    animation: span 7s ease-in-out infinite;
+ }
+ @keyframes span{
+    0%{
+           box-shadow: 0 0 40px rgb(0, 255, 225);
+         }
+         50%{
+          box-shadow: 0px 0px 40px rgb(3, 234, 255);
+           /* border: solid    175px rgb(136, 134, 134); */
+          
+         }
+         60%{
+                  box-shadow: 0px 0px 40px rgb(255, 255, 255);
+           /* border: solid    95px rgb(136, 134, 134); */
+        
+         }
+         70%{
+          box-shadow: 0 0 40px rgb(0, 166, 255);
+          /* border: solid    55px rgb(136, 134, 134); */
+         }
+        100%{
+          transform: rotate(0deg);
+          box-shadow: 0 0 40px rgb(11, 7, 244);
+          border: solid    5px rgb(136, 134, 134);
+
+        }
+}
+.c{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.a1{position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 20px rgb(0, 0, 0);
+    border-bottom-color: rgb(20, 193, 220);
+    left: 200px;
+    top:-500px;
+    animation: ss 7s ease infinite;
+
+ }
+@keyframes ss{
+  
+       50%{
+        transform: rotate(100deg);
+       }
+   
+} 
+.dp{
+    position: absolute;
+    background-color: rgb(143, 103, 1);
+    width: 200px;
+    height: 5px ;
+    top:190px ;
+    left: 230px;
+}
+.a2{position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: solid 20px   rgb(0, 0, 0);
+    border-bottom-color:rgb(255, 0, 221) ;
+  
+    animation: sa 7s ease-in-out infinite;
+}
+@keyframes sa{
+    0%{
+        transform: rotate(0deg);
+        }
+       50%{
+        transform: rotate(360deg);
+       }
+}
+.a3{position: absolute;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: solid 20px   rgb(0, 0, 0);
+    border-bottom-color:rgb(15, 241, 30) ;
+   animation: sas 7s ease-in-out infinite;
+}
+@keyframes sas{
+    0%{
+        transform: rotate(0deg);
+        }
+       50%{
+        transform: rotate(360deg);
+       }
+}
+.a4{position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid 20px  rgb(0, 0, 0);
+    border-bottom-color:rgb(241, 83, 15) ;
+    
+   animation: sas 7s ease-in-out infinite;
+}
+.a5{position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: solid 20px   rgb(0, 0, 0);
+    border-bottom-color:rgb(68, 15, 241) ;
+   animation: sas 7s ease-in-out infinite;
+}
+.a6{position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 20px   rgb(0, 0, 0);
+    border-bottom-color:rgb(211, 241, 15) ;
+   animation: sas 7s ease-in-out infinite;
+   background-color: rgb(0, 0, 0);
+}
+.a7{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-image: linear-gradient(90deg, #f61436 25%, #f00caf 50%, #0cf627 100%);
+    left: 5px px;
+    top: 3px;
+    border-radius: 50%;
+}
+.a{position: absolute;
+    font-family: cursive;
+    color: #ffffff;
+    text-align: center;
+    width: 550px;
+    top: 230px;
+    left: 50px;
+    line-height: 30px;
+}
+.v{
+    position: absolute;
+    color: aqua;
+    top: 130px;
+    left: 220px;
+    font-family: cursive;
+    
+}
+.bu{
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px; 
+   color: rgb(29, 124, 158);
+   background-color: rgb(111, 0, 255);
+   padding: 15px 25px;
+   border-bottom-left-radius: 40%;
+   border-top-right-radius: 40%;
+   font-family: sans-serif;
+   top: 500px;
+   left: 350px;
+  }
+  .bu:hover{
+    background-color:rgb(194, 44, 82);
+    box-shadow: 30px 20px 40px rgb(0, 208, 255);
+  }
+  .p1{
+    position: absolute;
+    left: 500px;
+    top:20px;
+    font-family: cursive;
+    color: rgb(255, 111, 0);
+  }
+  .p2{
+    position: relative;
+    border: solid 3px rgb(255, 0, 157);
+    width: 100%;
+    height: 700px;
+    background-color: black;
+  }
+@media screen and (max-width:1200px ){
+    .d1{
+        background-color: #0cf627;
+    }
+}
+@media screen and (max-width:1200px ){
+    .s1{
+        top: 650px;
+        left:  80px ;
+        width: 500px;
+        height: 370px;
+    }
+    .d2{
+        height: 1100px;
+    }
+    .v{
+      justify-content: center;
+    }
+    .dp{
+        left: 220px;
+    }
+    .a{
+        left: 80px;
+        font-size: 16px;
+        width: 500px;
+    }
+    .p1{
+      left: 20px;  
+    }
+    .d0{
+        width: auto;
+    }
+    .p1{
+        top: 20px;
+      left: 190px;
+    }
+}
+.l1{
+    position: relative;
+    background-color: rgb(251, 245, 243);
+    width: 400px ;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.l2{
+    position: relative;
+    background-color: rgb(251, 245, 243);
+    width: 400px ;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.l3{
+    position: relative;
+    background-color: rgb(251, 245, 243);
+    width: 400px ;
+    height: 550px;
+    border-radius: 20px;
+    overflow: hidden;
+}
